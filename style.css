@@ -12,6 +12,10 @@ footer {
     grid-column: 1;
 }
 
+footer {
+    margin-top: 50px;
+}
+
 body {
     margin: 0 auto;
     max-width: 56em;
@@ -70,4 +74,34 @@ footer {
 .f {
     background-image: url(assets/screenshot_adventure.png);
     background-size: 100%;
+}
+
+.a:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
+}
+
+.b:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
+}
+
+.c:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
+}
+
+.d:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
+}
+
+.e:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
+}
+
+.f:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
 }
