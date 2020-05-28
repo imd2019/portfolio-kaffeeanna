@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+    background-color: rgb(241, 212, 199);
+    color: rgb(32, 11, 1);
+}
+
 body {
     display: grid;
     grid-template-columns: 100%;
@@ -47,13 +52,11 @@ footer {
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-gap: 10px;
-    background-color: #fff;
     color: #444;
     margin-top: -150px;
 }
 
 .box {
-    background-color: #444;
     color: #fff;
     border-radius: 5px;
     padding: 100px;
